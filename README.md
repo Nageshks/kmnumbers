@@ -1,28 +1,22 @@
 
-AndroidMaterialSheet
+KM-Numbers
 ---------------------
-description
-
+android library to short long numbers implementation of working on https://github.com/ShootrNetwork/kmnumbers
 
 Usage
 -------
-####  Library
-
 ```kotlin
-code
+KMNumbers.formatNumbers(100L); // should return 100,
+KMNumbers.formatNumbers(1000L); // should return 1.0K,
+KMNumbers.formatNumbers(10000L); // should return 10.0K,
+KMNumbers.formatNumbers(1000000L); // should return 1.0M,
+KMNumbers.formatNumbers(10000000L); // should return 10.0M.
 ```
-**Behaviour**
-- [x] Return true or false by ConfirmationSheet.isConfirmed(receivedBudle)
-- [x] Always return result even click outside by user as false
-- [x] Survive configuration change
-
-<img src="https://github.com/Nageshks/repository/blob/main/screenshot.jpg" width="200" height="300" align="center">
-
 Download
 --------
 
 ```groovy
-implementation("io.github.nageshks.library:library:<latest-release>")
+implementation("io.github.nageshks.kmnumbers:kmnumbers:<latest-release>")
 ```
 
 License
