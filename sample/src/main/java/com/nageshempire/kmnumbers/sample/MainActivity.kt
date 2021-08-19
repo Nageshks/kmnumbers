@@ -1,8 +1,8 @@
-package com.nageshempire.sample
+package com.nageshempire.kmnumbers.sample
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.nageshempire.sample.databinding.ActivityMainBinding
+import androidx.appcompat.app.AppCompatActivity
+import com.nageshempire.kmnumbers.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

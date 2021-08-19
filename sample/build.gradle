@@ -7,7 +7,7 @@ android {
     compileSdk 30
 
     defaultConfig {
-        applicationId "com.nageshempire.sample"
+        applicationId "com.nageshempire.kmnumbers.sample"
         minSdk 21
         targetSdk 30
         versionCode 1

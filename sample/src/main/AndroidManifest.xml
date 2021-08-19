@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.nageshempire.sample">
+    package="com.nageshempire.kmnumbers.sample">
 
     <application
         android:allowBackup="false"
@@ -12,7 +12,7 @@
         android:theme="@style/Theme.App"
         tools:ignore="AllowBackup">
         <activity
-            android:name="com.nageshempire.sample.MainActivity"
+            android:name="com.nageshempire.kmnumbers.sample.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

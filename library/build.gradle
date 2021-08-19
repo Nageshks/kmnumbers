@@ -36,10 +36,6 @@ android {
 }
 
 dependencies {
-    implementation "$fragment_ktx"
-    implementation "$core_ktx"
-    implementation "$app_compat"
-    implementation "$material"
     testImplementation "$t_junit"
     androidTestImplementation "$at_junit"
     androidTestImplementation "$at_espresso"

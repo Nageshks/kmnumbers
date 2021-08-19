@@ -6,6 +6,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "MkNumbers"
+rootProject.name = "KMNumbers"
 include ':sample'
 include ':library'

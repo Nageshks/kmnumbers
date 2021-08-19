@@ -1,4 +1,4 @@
-package com.nageshempire.library
+package com.nageshempire.kmnumbers
 
 object N {
     const val SELF_EXTRA = "self_extra"
