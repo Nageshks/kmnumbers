@@ -1,7 +1,7 @@
 
 KM-Numbers
 ---------------------
-android library to short long numbers implementation of working on https://github.com/ShootrNetwork/kmnumbers
+android library to short long numbers, working on initial implementation of https://github.com/ShootrNetwork/kmnumbers
 
 Usage
 -------
@@ -16,7 +16,7 @@ Download
 --------
 
 ```groovy
-implementation("io.github.nageshks.kmnumbers:kmnumbers:<latest-release>")
+implementation("io.github.nageshks.kmnumbers:kmnumbers:0.1.0")
 ```
 
 License
